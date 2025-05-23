@@ -1,0 +1,1833 @@
+[
+  {
+    "id": 1,
+    "title": "Alltag & Tagesablauf",
+    "description": "Lernen Sie über tägliche Routinen und Aktivitäten im Alltag.",
+    "grammarFocus": [
+      "Präsens (regelmäßige Verben)",
+      "Zeitausdrücke",
+      "Trennbare Verben"
+    ],
+    "vocabularyThemes": ["Morgenroutine", "Tagesaktivitäten", "Uhrzeiten"],
+    "tasks": [
+      {
+        "id": "ch1-t1",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Wecker",
+          "back": "the alarm clock"
+        },
+        "vocabulary": ["Morgenroutine"],
+        "chapter": 1
+      },
+      {
+        "id": "ch1-t2",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "aufstehen",
+          "back": "to get up"
+        },
+        "vocabulary": ["Morgenroutine"],
+        "grammar": ["Trennbare Verben"],
+        "chapter": 1
+      },
+      {
+        "id": "ch1-t3",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "frühstücken",
+          "back": "to have breakfast"
+        },
+        "vocabulary": ["Morgenroutine"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t4",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Was ist die richtige Form von 'aufstehen'?",
+          "options": [
+            "Ich aufstehe um 7 Uhr.",
+            "Ich stehe um 7 Uhr auf.",
+            "Ich stehe auf um 7 Uhr.",
+            "Aufstehe ich um 7 Uhr."
+          ],
+          "correctAnswer": "Ich stehe um 7 Uhr auf.",
+          "hint": "Denken Sie an trennbare Verben und die Position des Präfixes."
+        },
+        "grammar": ["Trennbare Verben", "Präsens (regelmäßige Verben)"],
+        "chapter": 1
+      },
+      {
+        "id": "ch1-t5",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 15,
+        "content": {
+          "question": "Was bedeutet 'die Dusche nehmen'?",
+          "options": [
+            "to take a break",
+            "to take a photo",
+            "to take a shower",
+            "to take a nap"
+          ],
+          "correctAnswer": "to take a shower",
+          "hint": "Was macht man morgens im Badezimmer?"
+        },
+        "vocabulary": ["Morgenroutine"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t6",
+        "type": "fill-blank",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Lücken mit dem richtigen Wort.",
+          "sentence": "Morgens ___ ich um 7 Uhr ___. Dann ___ ich Kaffee und ___ mich für die Arbeit.",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["schlafe", "stehe", "gehe", "mache"],
+              "answer": "stehe"
+            },
+            {
+              "index": 1,
+              "options": ["an", "aus", "auf", "ein"],
+              "answer": "auf"
+            },
+            {
+              "index": 2,
+              "options": ["trinke", "esse", "koche", "kaufe"],
+              "answer": "trinke"
+            },
+            {
+              "index": 3,
+              "options": ["entspanne", "frage", "putze", "ziehe an"],
+              "answer": "ziehe an"
+            }
+          ],
+          "hint": "Denken Sie an die typische Morgenroutine."
+        },
+        "vocabulary": ["Morgenroutine", "Tagesaktivitäten"],
+        "grammar": ["Trennbare Verben", "Präsens (regelmäßige Verben)"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t7",
+        "type": "matching",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 25,
+        "content": {
+          "instruction": "Verbinden Sie die Wörter mit den passenden Definitionen.",
+          "pairs": [
+            { "key": "der Wecker", "value": "macht Lärm, um Sie zu wecken" },
+            { "key": "das Frühstück", "value": "erste Mahlzeit am Tag" },
+            { "key": "die Dusche", "value": "wo man sich mit Wasser wäscht" },
+            { "key": "der Termin", "value": "geplantes Treffen oder Ereignis" },
+            { "key": "die Zeit", "value": "Stunden, Minuten, Sekunden" }
+          ]
+        },
+        "vocabulary": ["Morgenroutine", "Tagesaktivitäten", "Uhrzeiten"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t8",
+        "type": "ordering",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 35,
+        "content": {
+          "instruction": "Ordnen Sie die Wörter, um einen korrekten Satz zu bilden.",
+          "words": ["stehe", "auf", "Ich", "früh", "morgens", "sehr"],
+          "correctAnswer": ["Ich", "stehe", "morgens", "sehr", "früh", "auf"]
+        },
+        "grammar": ["Trennbare Verben", "Wortstellung"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t9",
+        "type": "translation",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 40,
+        "content": {
+          "instruction": "Übersetzen Sie den Satz ins Deutsche.",
+          "englishText": "I wake up at 6 o'clock, take a shower, and then have breakfast.",
+          "germanText": "Ich wache um 6 Uhr auf, dusche und frühstücke dann."
+        },
+        "vocabulary": ["Morgenroutine", "Uhrzeiten"],
+        "grammar": ["Trennbare Verben", "Präsens (regelmäßige Verben)"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t10",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Wie sagt man '7:15' auf Deutsch?",
+          "options": [
+            "Sieben nach Viertel",
+            "Viertel nach sieben",
+            "Viertel vor sieben",
+            "Sieben und fünfzehn"
+          ],
+          "correctAnswer": "Viertel nach sieben",
+          "hint": "In Deutschland sagt man oft 'Viertel nach/vor' für die Zeit."
+        },
+        "vocabulary": ["Uhrzeiten"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t11",
+        "type": "fill-blank",
+        "difficulty": "hard",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Verben in der richtigen Form.",
+          "sentence": "Maria ___ (aufstehen) um 6 Uhr und ___ (frühstücken) um 7 Uhr. Danach ___ sie zur Arbeit ___ (fahren).",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["aufsteht", "stehen auf", "steht auf", "aufstehen"],
+              "answer": "steht auf"
+            },
+            {
+              "index": 1,
+              "options": [
+                "frühstückt",
+                "frühstücken",
+                "frühstücke",
+                "frühstücktst"
+              ],
+              "answer": "frühstückt"
+            },
+            {
+              "index": 2,
+              "options": ["fährt", "fahrt", "fahren", "fähren"],
+              "answer": "fährt"
+            }
+          ],
+          "hint": "Achten Sie auf die Verbform in der 3. Person Singular und die Position des Präfixes bei trennbaren Verben."
+        },
+        "grammar": [
+          "Trennbare Verben",
+          "Präsens (regelmäßige Verben)",
+          "Präsens (unregelmäßige Verben)"
+        ],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t12",
+        "type": "matching",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 25,
+        "content": {
+          "instruction": "Verbinden Sie die Uhrzeiten mit der richtigen Schreibweise.",
+          "pairs": [
+            { "key": "8:00", "value": "acht Uhr" },
+            { "key": "12:30", "value": "halb eins" },
+            { "key": "7:15", "value": "Viertel nach sieben" },
+            { "key": "9:45", "value": "Viertel vor zehn" },
+            { "key": "2:10", "value": "zehn nach zwei" }
+          ]
+        },
+        "vocabulary": ["Uhrzeiten"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t13",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Was passt NICHT in die Morgenroutine?",
+          "options": [
+            "Zähne putzen",
+            "duschen",
+            "frühstücken",
+            "zu Abend essen"
+          ],
+          "correctAnswer": "zu Abend essen",
+          "hint": "Welche Aktivität macht man normalerweise nicht am Morgen?"
+        },
+        "vocabulary": ["Morgenroutine", "Tagesaktivitäten"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t14",
+        "type": "ordering",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ordnen Sie die Aktivitäten in einer typischen Reihenfolge.",
+          "words": [
+            "frühstücken",
+            "aufstehen",
+            "zur Arbeit fahren",
+            "duschen",
+            "anziehen"
+          ],
+          "correctAnswer": [
+            "aufstehen",
+            "duschen",
+            "anziehen",
+            "frühstücken",
+            "zur Arbeit fahren"
+          ]
+        },
+        "vocabulary": ["Morgenroutine", "Tagesaktivitäten"],
+        "chapter": 1
+      },
+
+      {
+        "id": "ch1-t15",
+        "type": "translation",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 40,
+        "content": {
+          "instruction": "Übersetzen Sie den Satz ins Englische.",
+          "germanText": "Jeden Morgen stehe ich früh auf, frühstücke schnell und fahre mit dem Bus zur Arbeit.",
+          "englishText": "Every morning I get up early, have breakfast quickly and take the bus to work."
+        },
+        "vocabulary": ["Morgenroutine", "Tagesaktivitäten"],
+        "grammar": ["Trennbare Verben", "Präsens (regelmäßige Verben)"],
+        "chapter": 1
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Wohnen & Einrichtung",
+    "description": "Lernen Sie über Wohnungen, Häuser und Möbel.",
+    "grammarFocus": [
+      "Akkusativ",
+      "Präpositionen mit Dativ",
+      "Possessivartikel"
+    ],
+    "vocabularyThemes": ["Wohnungstypen", "Zimmer", "Möbel"],
+    "tasks": [
+      {
+        "id": "ch2-t1",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Wohnzimmer",
+          "back": "the living room"
+        },
+        "vocabulary": ["Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t2",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "die Küche",
+          "back": "the kitchen"
+        },
+        "vocabulary": ["Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t3",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Tisch",
+          "back": "the table"
+        },
+        "vocabulary": ["Möbel"],
+        "chapter": 2
+      },
+
+      {
+        "id": "ch2-t4",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welche Form ist korrekt?",
+          "options": [
+            "Das Buch liegt auf dem Tisch.",
+            "Das Buch liegt auf den Tisch.",
+            "Das Buch liegt auf der Tisch.",
+            "Das Buch liegt auf das Tisch."
+          ],
+          "correctAnswer": "Das Buch liegt auf dem Tisch.",
+          "hint": "Die Präposition 'auf' verlangt hier den Dativ, weil etwas auf dem Tisch liegt (keine Bewegung)."
+        },
+        "grammar": ["Präpositionen mit Dativ"],
+        "chapter": 2
+      }
+    ]
+  },
+  {
+    "chapterId": 2,
+    "title": "Wohnen & Einrichtung",
+    "description": "Lernen Sie über Wohnungstypen, Räume, Möbel und Wohnungseinrichtung.",
+    "grammarFocus": [
+      "Akkusativ",
+      "Präpositionen mit Dativ",
+      "Possessivartikel",
+      "Wechselpräpositionen",
+      "Artikel im Nominativ und Akkusativ"
+    ],
+    "vocabularyThemes": [
+      "Wohnungstypen",
+      "Zimmer",
+      "Möbel",
+      "Haushaltsgeräte",
+      "Wohnungssuche"
+    ],
+    "tasks": [
+      {
+        "id": "ch2-t1",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Wohnzimmer",
+          "back": "the living room"
+        },
+        "vocabulary": ["Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t2",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "die Küche",
+          "back": "the kitchen"
+        },
+        "vocabulary": ["Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t3",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Schlafzimmer",
+          "back": "the bedroom"
+        },
+        "vocabulary": ["Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t4",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Badezimmer",
+          "back": "the bathroom"
+        },
+        "vocabulary": ["Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t5",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Flur",
+          "back": "the hallway/corridor"
+        },
+        "vocabulary": ["Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t6",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Balkon",
+          "back": "the balcony"
+        },
+        "vocabulary": ["Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t7",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "die Wohnung",
+          "back": "the apartment"
+        },
+        "vocabulary": ["Wohnungstypen"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t8",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Haus",
+          "back": "the house"
+        },
+        "vocabulary": ["Wohnungstypen"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t9",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Tisch",
+          "back": "the table"
+        },
+        "vocabulary": ["Möbel"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t10",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Stuhl",
+          "back": "the chair"
+        },
+        "vocabulary": ["Möbel"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t11",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Sofa",
+          "back": "the sofa/couch"
+        },
+        "vocabulary": ["Möbel"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t12",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Bett",
+          "back": "the bed"
+        },
+        "vocabulary": ["Möbel"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t13",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Schrank",
+          "back": "the cabinet/wardrobe"
+        },
+        "vocabulary": ["Möbel"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t14",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Regal",
+          "back": "the shelf"
+        },
+        "vocabulary": ["Möbel"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t15",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Kühlschrank",
+          "back": "the refrigerator"
+        },
+        "vocabulary": ["Haushaltsgeräte"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t16",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "die Waschmaschine",
+          "back": "the washing machine"
+        },
+        "vocabulary": ["Haushaltsgeräte"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t17",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Herd",
+          "back": "the stove/cooker"
+        },
+        "vocabulary": ["Haushaltsgeräte"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t18",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "die Dusche",
+          "back": "the shower"
+        },
+        "vocabulary": ["Badezimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t19",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "die Miete",
+          "back": "the rent"
+        },
+        "vocabulary": ["Wohnungssuche"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t20",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Nachbar / die Nachbarin",
+          "back": "the neighbor (male/female)"
+        },
+        "vocabulary": ["Wohnungssuche"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t21",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welche Form ist korrekt?",
+          "options": [
+            "Das Buch liegt auf dem Tisch.",
+            "Das Buch liegt auf den Tisch.",
+            "Das Buch liegt auf der Tisch.",
+            "Das Buch liegt auf das Tisch."
+          ],
+          "correctAnswer": "Das Buch liegt auf dem Tisch.",
+          "hint": "Die Präposition 'auf' verlangt hier den Dativ, weil etwas auf dem Tisch liegt (keine Bewegung)."
+        },
+        "grammar": ["Präpositionen mit Dativ"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t22",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welche Form ist korrekt?",
+          "options": [
+            "Ich lege das Buch auf dem Tisch.",
+            "Ich lege das Buch auf den Tisch.",
+            "Ich lege das Buch auf der Tisch.",
+            "Ich lege das Buch auf das Tisch."
+          ],
+          "correctAnswer": "Ich lege das Buch auf den Tisch.",
+          "hint": "Die Präposition 'auf' verlangt hier den Akkusativ, weil eine Bewegung stattfindet."
+        },
+        "grammar": ["Wechselpräpositionen", "Akkusativ"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t23",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Was ist der Artikel von 'Wohnung' im Akkusativ?",
+          "options": ["der", "die", "das", "den"],
+          "correctAnswer": "die",
+          "hint": "Femininum bleibt im Akkusativ unverändert."
+        },
+        "grammar": ["Artikel im Nominativ und Akkusativ"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t24",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Was ist der Artikel von 'Tisch' im Akkusativ?",
+          "options": ["der", "die", "das", "den"],
+          "correctAnswer": "den",
+          "hint": "Maskulinum ändert sich im Akkusativ."
+        },
+        "grammar": ["Artikel im Nominativ und Akkusativ"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t25",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welcher Satz ist korrekt?",
+          "options": [
+            "Die Wohnung hat ein Balkon.",
+            "Die Wohnung hat einen Balkon.",
+            "Die Wohnung hat eine Balkon.",
+            "Die Wohnung hat eines Balkon."
+          ],
+          "correctAnswer": "Die Wohnung hat einen Balkon.",
+          "hint": "Denken Sie an den Akkusativ für maskuline Substantive."
+        },
+        "grammar": ["Akkusativ"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t26",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Was passt nicht in ein Wohnzimmer?",
+          "options": ["das Sofa", "der Sessel", "der Teppich", "die Dusche"],
+          "correctAnswer": "die Dusche",
+          "hint": "Denken Sie daran, welche Gegenstände typischerweise in welchen Räumen zu finden sind."
+        },
+        "vocabulary": ["Möbel", "Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t27",
+        "type": "fill-blank",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Sätze mit den richtigen Artikeln im Akkusativ.",
+          "sentence": "Ich habe ___ Tisch, ___ Stuhl, ___ Lampe und ___ Regal in meinem Zimmer.",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["der", "die", "das", "den"],
+              "answer": "einen"
+            },
+            {
+              "index": 1,
+              "options": ["der", "die", "das", "den"],
+              "answer": "einen"
+            },
+            {
+              "index": 2,
+              "options": ["der", "die", "das", "den"],
+              "answer": "eine"
+            },
+            {
+              "index": 3,
+              "options": ["der", "die", "das", "den"],
+              "answer": "ein"
+            }
+          ],
+          "hint": "Achten Sie auf das Geschlecht der Substantive und den unbestimmten Artikel im Akkusativ."
+        },
+        "grammar": ["Akkusativ"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t28",
+        "type": "fill-blank",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Sätze mit den richtigen Präpositionen.",
+          "sentence": "Das Bild hängt ___ der Wand. Die Lampe steht ___ dem Tisch. Ich stelle die Vase ___ den Schrank.",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["auf", "an", "in", "unter"],
+              "answer": "an"
+            },
+            {
+              "index": 1,
+              "options": ["auf", "an", "in", "unter"],
+              "answer": "auf"
+            },
+            {
+              "index": 2,
+              "options": ["auf", "an", "in", "unter"],
+              "answer": "auf"
+            }
+          ],
+          "hint": "Denken Sie an die räumlichen Beziehungen und ob es eine Bewegung gibt oder nicht."
+        },
+        "grammar": ["Präpositionen mit Dativ", "Wechselpräpositionen"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t29",
+        "type": "fill-blank",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Possessivartikel.",
+          "sentence": "Das ist ___ Wohnung. Hier wohne ich mit ___ Freundin. ___ Zimmer ist groß, aber ___ Küche ist klein.",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["mein", "meine", "meinen", "meiner"],
+              "answer": "meine"
+            },
+            {
+              "index": 1,
+              "options": ["mein", "meine", "meinen", "meiner"],
+              "answer": "meiner"
+            },
+            {
+              "index": 2,
+              "options": ["mein", "meine", "meinen", "meiner"],
+              "answer": "mein"
+            },
+            {
+              "index": 3,
+              "options": ["mein", "meine", "meinen", "meiner"],
+              "answer": "meine"
+            }
+          ],
+          "hint": "Achten Sie auf das Geschlecht der Substantive und den Kasus."
+        },
+        "grammar": ["Possessivartikel"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t30",
+        "type": "matching",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 25,
+        "content": {
+          "instruction": "Verbinden Sie die Möbelstücke mit den passenden Räumen.",
+          "pairs": [
+            { "key": "das Bett", "value": "das Schlafzimmer" },
+            { "key": "der Herd", "value": "die Küche" },
+            { "key": "die Dusche", "value": "das Badezimmer" },
+            { "key": "das Sofa", "value": "das Wohnzimmer" },
+            { "key": "der Kleiderschrank", "value": "das Schlafzimmer" }
+          ]
+        },
+        "vocabulary": ["Möbel", "Zimmer"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t31",
+        "type": "matching",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 25,
+        "content": {
+          "instruction": "Verbinden Sie die Wörter mit den passenden Definitionen.",
+          "pairs": [
+            {
+              "key": "die Miete",
+              "value": "Geld, das man für eine Wohnung bezahlt"
+            },
+            { "key": "der Nachbar", "value": "Person, die neben mir wohnt" },
+            {
+              "key": "die Wohngemeinschaft",
+              "value": "mehrere Personen teilen sich eine Wohnung"
+            },
+            {
+              "key": "der Vermieter",
+              "value": "Person, der die Wohnung gehört"
+            },
+            {
+              "key": "der Mietvertrag",
+              "value": "Dokument für das Wohnungsverhältnis"
+            }
+          ]
+        },
+        "vocabulary": ["Wohnungssuche"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t32",
+        "type": "ordering",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 35,
+        "content": {
+          "instruction": "Ordnen Sie die Wörter, um einen korrekten Satz zu bilden.",
+          "words": ["stelle", "auf", "Ich", "den", "die Lampe", "Tisch"],
+          "correctAnswer": ["Ich", "stelle", "die Lampe", "auf", "den", "Tisch"]
+        },
+        "grammar": ["Wechselpräpositionen", "Wortstellung"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t33",
+        "type": "ordering",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 35,
+        "content": {
+          "instruction": "Ordnen Sie die Wörter, um einen korrekten Satz zu bilden.",
+          "words": ["liegt", "dem", "Das Buch", "auf", "Tisch"],
+          "correctAnswer": ["Das Buch", "liegt", "auf", "dem", "Tisch"]
+        },
+        "grammar": ["Präpositionen mit Dativ", "Wortstellung"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t34",
+        "type": "translation",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 40,
+        "content": {
+          "instruction": "Übersetzen Sie den Satz ins Deutsche.",
+          "englishText": "I live in a beautiful apartment with three rooms and a balcony.",
+          "germanText": "Ich wohne in einer schönen Wohnung mit drei Zimmern und einem Balkon."
+        },
+        "vocabulary": ["Wohnungstypen", "Zimmer"],
+        "grammar": ["Präpositionen mit Dativ"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t35",
+        "type": "translation",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 40,
+        "content": {
+          "instruction": "Übersetzen Sie den Satz ins Englische.",
+          "germanText": "Die Möbel in meinem Wohnzimmer sind neu, aber die Küche ist alt.",
+          "englishText": "The furniture in my living room is new, but the kitchen is old."
+        },
+        "vocabulary": ["Möbel", "Zimmer"],
+        "grammar": ["Possessivartikel"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t36",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Was ist eine 'Einzimmerwohnung'?",
+          "options": [
+            "Eine Wohnung mit einem Badezimmer",
+            "Eine Wohnung mit nur einem Raum zum Wohnen und Schlafen",
+            "Eine Wohnung im ersten Stock",
+            "Eine Wohnung für eine Person"
+          ],
+          "correctAnswer": "Eine Wohnung mit nur einem Raum zum Wohnen und Schlafen",
+          "hint": "Denken Sie an die Bedeutung von 'Zimmer' in diesem Zusammenhang."
+        },
+        "vocabulary": ["Wohnungstypen"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t37",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Was bedeutet 'WG' in Deutschland?",
+          "options": [
+            "Wohngemeinschaft",
+            "Wohnungsgesellschaft",
+            "Wohngebäude",
+            "Wintergarten"
+          ],
+          "correctAnswer": "Wohngemeinschaft",
+          "hint": "Es ist eine Abkürzung für eine Wohnform, wo mehrere Personen zusammenwohnen."
+        },
+        "vocabulary": ["Wohnungstypen"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t38",
+        "type": "fill-blank",
+        "difficulty": "hard",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Sätze mit den richtigen Verben.",
+          "sentence": "Ich ___ in einer kleinen Wohnung. Mein Freund ___ ein Haus mit Garten. Wir ___ unsere Wohnungen sehr schön.",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["wohne", "lebe", "bleibe", "stehe"],
+              "answer": "wohne"
+            },
+            {
+              "index": 1,
+              "options": ["hat", "besitzt", "kauft", "mietet"],
+              "answer": "hat"
+            },
+            {
+              "index": 2,
+              "options": ["finden", "denken", "machen", "sehen"],
+              "answer": "finden"
+            }
+          ],
+          "hint": "Welche Verben passen zu Wohnformen und Meinungen?"
+        },
+        "vocabulary": ["Wohnungstypen"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t39",
+        "type": "ordering",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ordnen Sie die Schritte bei der Wohnungssuche.",
+          "words": [
+            "Wohnungsanzeigen lesen",
+            "Besichtigungstermin vereinbaren",
+            "Wohnung besichtigen",
+            "Mietvertrag unterschreiben",
+            "einziehen"
+          ],
+          "correctAnswer": [
+            "Wohnungsanzeigen lesen",
+            "Besichtigungstermin vereinbaren",
+            "Wohnung besichtigen",
+            "Mietvertrag unterschreiben",
+            "einziehen"
+          ]
+        },
+        "vocabulary": ["Wohnungssuche"],
+        "chapter": 2
+      },
+      {
+        "id": "ch2-t40",
+        "type": "matching",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 25,
+        "content": {
+          "instruction": "Verbinden Sie die Verben mit den passenden Objekten.",
+          "pairs": [
+            { "key": "bezahlen", "value": "die Miete" },
+            { "key": "suchen", "value": "eine Wohnung" },
+            { "key": "einrichten", "value": "das Zimmer" },
+            { "key": "unterschreiben", "value": "den Mietvertrag" },
+            { "key": "aufhängen", "value": "die Gardinen" }
+          ]
+        },
+        "vocabulary": ["Wohnungssuche", "Möbel"],
+        "chapter": 2
+      }
+    ]
+  },
+  {
+    "chapterId": 3,
+    "title": "Soziale Kontakte",
+    "description": "Lernen Sie über soziale Interaktionen, Gefühle, Treffen und persönliche Beziehungen.",
+    "grammarFocus": [
+      "Modalverben (können, wollen, möchten)",
+      "Personalpronomen im Akkusativ",
+      "Konjunktionen (und, aber, oder, denn)",
+      "Fragepronomen",
+      "Imperativformen"
+    ],
+    "vocabularyThemes": [
+      "Gefühle und Stimmungen",
+      "Einladungen und Treffen",
+      "Freizeitaktivitäten",
+      "Persönliche Beziehungen",
+      "Höfliche Ausdrücke"
+    ],
+    "tasks": [
+      {
+        "id": "ch3-t1",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "glücklich",
+          "back": "happy"
+        },
+        "vocabulary": ["Gefühle und Stimmungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t2",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "traurig",
+          "back": "sad"
+        },
+        "vocabulary": ["Gefühle und Stimmungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t3",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "wütend",
+          "back": "angry"
+        },
+        "vocabulary": ["Gefühle und Stimmungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t4",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "müde",
+          "back": "tired"
+        },
+        "vocabulary": ["Gefühle und Stimmungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t5",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "nervös",
+          "back": "nervous"
+        },
+        "vocabulary": ["Gefühle und Stimmungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t6",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Freund / die Freundin",
+          "back": "the friend (male/female)"
+        },
+        "vocabulary": ["Persönliche Beziehungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t7",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "der Kollege / die Kollegin",
+          "back": "the colleague (male/female)"
+        },
+        "vocabulary": ["Persönliche Beziehungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t8",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "die Einladung",
+          "back": "the invitation"
+        },
+        "vocabulary": ["Einladungen und Treffen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t9",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "die Verabredung",
+          "back": "the appointment/date"
+        },
+        "vocabulary": ["Einladungen und Treffen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t10",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "die Party",
+          "back": "the party"
+        },
+        "vocabulary": ["Einladungen und Treffen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t11",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Fest",
+          "back": "the celebration/festival"
+        },
+        "vocabulary": ["Einladungen und Treffen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t12",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Kino",
+          "back": "the cinema"
+        },
+        "vocabulary": ["Freizeitaktivitäten"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t13",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "das Restaurant",
+          "back": "the restaurant"
+        },
+        "vocabulary": ["Freizeitaktivitäten"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t14",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "Danke schön",
+          "back": "Thank you very much"
+        },
+        "vocabulary": ["Höfliche Ausdrücke"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t15",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "Bitte sehr",
+          "back": "You're welcome"
+        },
+        "vocabulary": ["Höfliche Ausdrücke"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t16",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "Entschuldigung",
+          "back": "Excuse me/I'm sorry"
+        },
+        "vocabulary": ["Höfliche Ausdrücke"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t17",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "einladen",
+          "back": "to invite"
+        },
+        "vocabulary": ["Einladungen und Treffen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t18",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "besuchen",
+          "back": "to visit"
+        },
+        "vocabulary": ["Persönliche Beziehungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t19",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "sich treffen",
+          "back": "to meet (each other)"
+        },
+        "vocabulary": ["Einladungen und Treffen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t20",
+        "type": "flashcard",
+        "difficulty": "easy",
+        "points": 5,
+        "timeEstimate": 10,
+        "content": {
+          "front": "Spaß haben",
+          "back": "to have fun"
+        },
+        "vocabulary": ["Freizeitaktivitäten"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t21",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Wie fragt man höflich nach der Zeit?",
+          "options": [
+            "Wie spät ist?",
+            "Wie spät ist es, bitte?",
+            "Wie ist die Zeit?",
+            "Wann ist jetzt?"
+          ],
+          "correctAnswer": "Wie spät ist es, bitte?",
+          "hint": "Denken Sie an die korrekte Wortstellung und einen höflichen Ausdruck."
+        },
+        "vocabulary": ["Höfliche Ausdrücke"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t22",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welche Form von 'können' ist richtig?",
+          "options": [
+            "Ich kann morgen ins Kino gehen.",
+            "Ich könne morgen ins Kino gehen.",
+            "Ich können morgen ins Kino gehen.",
+            "Ich kanne morgen ins Kino gehen."
+          ],
+          "correctAnswer": "Ich kann morgen ins Kino gehen.",
+          "hint": "Achten Sie auf die richtige Konjugation des Modalverbs in der 1. Person Singular."
+        },
+        "grammar": ["Modalverben (können, wollen, möchten)"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t23",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welche Form ist korrekt?",
+          "options": [
+            "Ich möchte dich einladen.",
+            "Ich möchte dir einladen.",
+            "Ich möchte du einladen.",
+            "Ich möchte Sie einladen."
+          ],
+          "correctAnswer": "Ich möchte dich einladen.",
+          "hint": "Beachten Sie das Personalpronomen im Akkusativ."
+        },
+        "grammar": [
+          "Personalpronomen im Akkusativ",
+          "Modalverben (können, wollen, möchten)"
+        ],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t24",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welcher Satz ist korrekt?",
+          "options": [
+            "Kommst du mit und wir gehen ins Kino?",
+            "Kommst du mit oder wir gehen ins Kino?",
+            "Kommst du mit oder gehen wir ins Kino?",
+            "Kommst du mit und gehen wir ins Kino?"
+          ],
+          "correctAnswer": "Kommst du mit oder gehen wir ins Kino?",
+          "hint": "Achten Sie auf die korrekte Verwendung der Konjunktion und die Wortstellung."
+        },
+        "grammar": ["Konjunktionen (und, aber, oder, denn)"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t25",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welche Imperativform ist richtig?",
+          "options": [
+            "Komm mit ins Kino!",
+            "Kommst mit ins Kino!",
+            "Kommen mit ins Kino!",
+            "Du kommst mit ins Kino!"
+          ],
+          "correctAnswer": "Komm mit ins Kino!",
+          "hint": "Denken Sie an die Bildung des Imperativs in der 2. Person Singular (du-Form)."
+        },
+        "grammar": ["Imperativformen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t26",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Wie lehnt man höflich eine Einladung ab?",
+          "options": [
+            "Nein, ich will nicht.",
+            "Das ist langweilig.",
+            "Es tut mir leid, aber ich habe keine Zeit.",
+            "Ich komme nicht."
+          ],
+          "correctAnswer": "Es tut mir leid, aber ich habe keine Zeit.",
+          "hint": "Welche Antwort klingt am höflichsten?"
+        },
+        "vocabulary": ["Höfliche Ausdrücke", "Einladungen und Treffen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t27",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welches Wort passt nicht zu 'Gefühle'?",
+          "options": ["glücklich", "traurig", "nervös", "einladen"],
+          "correctAnswer": "einladen",
+          "hint": "Welches Wort beschreibt kein Gefühl, sondern eine Handlung?"
+        },
+        "vocabulary": ["Gefühle und Stimmungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t28",
+        "type": "fill-blank",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Sätze mit den richtigen Modalverben.",
+          "sentence": "Ich ___ morgen ins Kino gehen. ___ du mitkommen? Wir ___ uns um 19 Uhr treffen.",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["kann", "könne", "kannst", "können"],
+              "answer": "möchte"
+            },
+            {
+              "index": 1,
+              "options": ["Willst", "Wollt", "Möchtest", "Kannst"],
+              "answer": "Möchtest"
+            },
+            {
+              "index": 2,
+              "options": ["möchten", "wollen", "können", "möchte"],
+              "answer": "können"
+            }
+          ],
+          "hint": "Achten Sie auf die Person (ich, du, wir) und den passenden Kontext."
+        },
+        "grammar": ["Modalverben (können, wollen, möchten)"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t29",
+        "type": "fill-blank",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Sätze mit den richtigen Personalpronomen im Akkusativ.",
+          "sentence": "Ich sehe ___ morgen. Er besucht ___ am Wochenende. Wir laden ___ zur Party ein.",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["du", "dir", "dich", "dein"],
+              "answer": "dich"
+            },
+            {
+              "index": 1,
+              "options": ["wir", "uns", "unser", "unsere"],
+              "answer": "uns"
+            },
+            {
+              "index": 2,
+              "options": ["sie", "ihr", "ihnen", "euch"],
+              "answer": "euch"
+            }
+          ],
+          "hint": "Denken Sie an die Personalpronomen im Akkusativ: mich, dich, ihn/sie/es, uns, euch, sie/Sie."
+        },
+        "grammar": ["Personalpronomen im Akkusativ"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t30",
+        "type": "fill-blank",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Sätze mit den richtigen Konjunktionen (und, aber, oder, denn).",
+          "sentence": "Ich möchte ins Kino gehen, ___ ich habe keine Zeit. Gehst du ins Restaurant ___ ins Café? Ich bin müde, ___ ich gehe früh schlafen.",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["und", "aber", "oder", "denn"],
+              "answer": "aber"
+            },
+            {
+              "index": 1,
+              "options": ["und", "aber", "oder", "denn"],
+              "answer": "oder"
+            },
+            {
+              "index": 2,
+              "options": ["und", "aber", "oder", "denn"],
+              "answer": "denn"
+            }
+          ],
+          "hint": "Welche Konjunktion passt logisch zum Zusammenhang der Sätze?"
+        },
+        "grammar": ["Konjunktionen (und, aber, oder, denn)"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t31",
+        "type": "matching",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 25,
+        "content": {
+          "instruction": "Verbinden Sie die Ausdrücke mit den passenden Situationen.",
+          "pairs": [
+            { "key": "Herzlichen Glückwunsch!", "value": "zum Geburtstag" },
+            { "key": "Gute Besserung!", "value": "bei Krankheit" },
+            { "key": "Viel Erfolg!", "value": "vor einer Prüfung" },
+            { "key": "Schönes Wochenende!", "value": "am Freitag" },
+            { "key": "Prost!", "value": "beim Anstoßen" }
+          ]
+        },
+        "vocabulary": ["Höfliche Ausdrücke"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t32",
+        "type": "matching",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 25,
+        "content": {
+          "instruction": "Verbinden Sie die Fragen mit den passenden Antworten.",
+          "pairs": [
+            { "key": "Wie geht es dir?", "value": "Danke, mir geht es gut." },
+            {
+              "key": "Hast du Zeit am Samstag?",
+              "value": "Ja, da habe ich frei."
+            },
+            {
+              "key": "Kommst du mit ins Kino?",
+              "value": "Gerne, welcher Film läuft?"
+            },
+            {
+              "key": "Wann treffen wir uns?",
+              "value": "Um 19 Uhr am Bahnhof."
+            },
+            {
+              "key": "Was machst du am Wochenende?",
+              "value": "Ich besuche meine Eltern."
+            }
+          ]
+        },
+        "vocabulary": ["Einladungen und Treffen", "Persönliche Beziehungen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t33",
+        "type": "matching",
+        "difficulty": "medium",
+        "points": 15,
+        "timeEstimate": 25,
+        "content": {
+          "instruction": "Verbinden Sie die Modalverben mit den passenden Bedeutungen.",
+          "pairs": [
+            { "key": "können", "value": "Fähigkeit haben" },
+            { "key": "wollen", "value": "Absicht haben" },
+            { "key": "möchten", "value": "höflicher Wunsch" },
+            { "key": "müssen", "value": "Notwendigkeit" },
+            { "key": "dürfen", "value": "Erlaubnis haben" }
+          ]
+        },
+        "grammar": ["Modalverben (können, wollen, möchten)"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t34",
+        "type": "ordering",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 35,
+        "content": {
+          "instruction": "Ordnen Sie die Wörter, um einen korrekten Satz zu bilden.",
+          "words": ["dich", "Ich", "morgen", "besuchen", "möchte"],
+          "correctAnswer": ["Ich", "möchte", "dich", "morgen", "besuchen"]
+        },
+        "grammar": [
+          "Modalverben (können, wollen, möchten)",
+          "Personalpronomen im Akkusativ",
+          "Wortstellung"
+        ],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t35",
+        "type": "ordering",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 35,
+        "content": {
+          "instruction": "Ordnen Sie die Wörter, um einen korrekten Satz zu bilden.",
+          "words": ["ins", "gehen", "Kino", "wir", "oder", "ins", "Restaurant"],
+          "correctAnswer": [
+            "Gehen",
+            "wir",
+            "ins",
+            "Kino",
+            "oder",
+            "ins",
+            "Restaurant"
+          ]
+        },
+        "grammar": ["Konjunktionen (und, aber, oder, denn)", "Wortstellung"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t36",
+        "type": "translation",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 40,
+        "content": {
+          "instruction": "Übersetzen Sie den Satz ins Deutsche.",
+          "englishText": "I would like to invite you to my birthday party on Saturday.",
+          "germanText": "Ich möchte dich zu meiner Geburtstagsparty am Samstag einladen."
+        },
+        "vocabulary": ["Einladungen und Treffen"],
+        "grammar": [
+          "Modalverben (können, wollen, möchten)",
+          "Personalpronomen im Akkusativ"
+        ],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t37",
+        "type": "translation",
+        "difficulty": "hard",
+        "points": 20,
+        "timeEstimate": 40,
+        "content": {
+          "instruction": "Übersetzen Sie den Dialog ins Englische.",
+          "germanText": "- Hast du Zeit morgen Abend?\n- Ja, was möchtest du machen?\n- Wir können ins Kino gehen oder im Restaurant essen.\n- Ich möchte lieber ins Restaurant gehen.",
+          "englishText": "- Do you have time tomorrow evening?\n- Yes, what would you like to do?\n- We can go to the cinema or eat at a restaurant.\n- I would prefer to go to the restaurant."
+        },
+        "vocabulary": ["Einladungen und Treffen", "Freizeitaktivitäten"],
+        "grammar": ["Modalverben (können, wollen, möchten)"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t38",
+        "type": "fill-blank",
+        "difficulty": "hard",
+        "points": 15,
+        "timeEstimate": 30,
+        "content": {
+          "instruction": "Ergänzen Sie die Imperativformen.",
+          "sentence": "___ (kommen) bitte pünktlich! ___ (bringen) deine Freunde mit! ___ (antworten) mir schnell!",
+          "blanks": [
+            {
+              "index": 0,
+              "options": ["Kommst", "Komm", "Kommen", "Komme"],
+              "answer": "Komm"
+            },
+            {
+              "index": 1,
+              "options": ["Bringst", "Bring", "Bringen", "Bringe"],
+              "answer": "Bring"
+            },
+            {
+              "index": 2,
+              "options": ["Antwortest", "Antwort", "Antworten", "Antworte"],
+              "answer": "Antworte"
+            }
+          ],
+          "hint": "Denken Sie an die Imperativform für die du-Form."
+        },
+        "grammar": ["Imperativformen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t39",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welches Fragepronomen passt? '___ kostet die Kinokarte?'",
+          "options": ["Wo", "Wie", "Was", "Wann"],
+          "correctAnswer": "Was",
+          "hint": "Welches Fragepronomen benutzen wir, um nach dem Preis zu fragen?"
+        },
+        "grammar": ["Fragepronomen"],
+        "chapter": 3
+      },
+      {
+        "id": "ch3-t40",
+        "type": "multiple-choice",
+        "difficulty": "medium",
+        "points": 10,
+        "timeEstimate": 20,
+        "content": {
+          "question": "Welches Fragepronomen passt? '___ kommst du zur Party?'",
+          "options": ["Wo", "Wie", "Was", "Wann"],
+          "correctAnswer": "Wann",
+          "hint": "Wir fragen nach der Zeit."
+        },
+        "grammar": ["Fragepronomen"],
+        "chapter": 3
+      }
+    ]
+  }
+]

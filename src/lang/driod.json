@@ -1,0 +1,83 @@
+{
+  "and": "*beep*",
+  "navigation": {
+    "projects": "B00P-PR0JECTS",
+    "experience": "BEEP-TIMELINE",
+    "skills": "FUNC-MODULES",
+    "blog": "DATA-LOGS"
+  },
+  "header": {
+    "title": "Droi-D Engineer | Type-B00P, Web-3PO, ML",
+    "intro1": "Unit B3-T4 with 10+ cycles of runtime, specialized in binary-cycle development in Node*beep*, React*boop*, Type*bzzzt*.",
+    "intro2": "In standby mode, unit learns Py*bleep* and Go*whirr* and maintains pet projects Cash*beep* and Drop*boop*."
+  },
+  "experience": {
+    "title": "Runtime Logs",
+    "subtitle": "Unit processing history in technological sectors",
+    "searchPlaceholder": "Scan for function or module",
+    "noResults": "No data matches scan parameters",
+    "clearSearch": "Clear memory buffer",
+    "showMore": "Load {0} More",
+    "showLess": "Compress Data",
+    "badges": {
+      "remote": "Wireless",
+      "hybrid": "Semi-Autonomous",
+      "onsite": "Docked",
+      "mixed": "Multi-Mode"
+    },
+    "details": {
+      "keyAchievements": "CORE FUNCTIONS",
+      "technologies": "PROCESSORS"
+    }
+  },
+  "projects": {
+    "title": "B00P Projects",
+    "subtitle": "",
+    "viewProject": "View Schematic",
+    "viewCode": "Scan Code"
+  },
+  "skills": {
+    "title": "Function Modules",
+    "subtitle": "",
+    "searchPlaceholder": "Scan modules...",
+    "noResults": "No modules match parameters",
+    "clearFilters": "Reset filters",
+    "allSkills": "All Modules",
+    "categories": {
+      "frontend": "User-Interface",
+      "backend": "Core-Process",
+      "database": "Memory-Banks",
+      "devops": "Maintenance-Ops",
+      "cloud": "Remote-Servers",
+      "languages": "Protocol-Types",
+      "frameworks": "Structure-Units",
+      "tools": "Utility-Bots",
+      "mobile": "Portable-Mode",
+      "design": "Visual-Core",
+      "ai": "AI/ML-Circuits"
+    }
+  },
+  "blog": {
+    "title": "Data Logs",
+    "subtitle": "Processing units, logic flows, and interesting data patterns",
+    "searchPlaceholder": "Scan logs...",
+    "noResults": "No logs found in database",
+    "tryAdjusting": "Adjust search parameters",
+    "clearFilters": "Reset All Filters",
+    "showMore": "Load {0} More",
+    "moreArticles": "Additional Logs",
+    "showLess": "Compress View",
+    "readMore": "Process More",
+    "sorting": {
+      "newestFirst": "Recent Logs First",
+      "oldestFirst": "Archive Logs First"
+    }
+  },
+  "common": {
+    "clear": "*bzzzt*",
+    "filteredBy": "Filtered-by:",
+    "backToTop": "Return-to-Top",
+    "changeLanguage": "Switch-Protocol",
+    "toggleTheme": "Invert-Display"
+  }
+}

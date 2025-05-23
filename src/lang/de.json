@@ -1,0 +1,83 @@
+{
+  "and": "und",
+  "navigation": {
+    "projects": "PROJEKTE",
+    "experience": "ERFAHRUNG",
+    "skills": "FÄHIGKEITEN",
+    "blog": "BLOG"
+  },
+  "header": {
+    "title": "Full Stack Entwickler | Typescript, Web3, ML",
+    "intro1": "Full-Stack Entwickler mit über 10 Jahren Erfahrung, spezialisiert auf Full-Cycle-Entwicklung in NodeJS, React.js, TypeScript.",
+    "intro2": "In meiner Freizeit lerne ich Python und Golang und arbeite an meinem ML-Projekt Cashnews und E-Commerce-Projekt Dropster."
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "subtitle": "Meine berufliche Reise durch die Tech-Branche",
+    "searchPlaceholder": "Nach Rolle oder Technologie suchen",
+    "noResults": "Keine Erfahrungen passen zu deiner Suche",
+    "clearSearch": "Suche löschen",
+    "showMore": "{0} weitere anzeigen",
+    "showLess": "Weniger anzeigen",
+    "badges": {
+      "remote": "Remote",
+      "hybrid": "Hybrid",
+      "onsite": "Vor Ort",
+      "mixed": "Gemischt"
+    },
+    "details": {
+      "keyAchievements": "WICHTIGE ERFOLGE",
+      "technologies": "TECHNOLOGIEN"
+    }
+  },
+  "projects": {
+    "title": "Eigene Projekte",
+    "subtitle": "Persönliche Projekte, die ich in meiner Freizeit mache",
+    "viewProject": "Projekt ansehen",
+    "viewCode": "Code ansehen"
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "subtitle": "",
+    "searchPlaceholder": "Fähigkeiten suchen...",
+    "noResults": "Keine Fähigkeiten entsprechen deinen Kriterien",
+    "clearFilters": "Filter löschen",
+    "allSkills": "Alle Fähigkeiten",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Datenbank",
+      "devops": "DevOps",
+      "cloud": "Cloud",
+      "languages": "Sprachen",
+      "frameworks": "Frameworks",
+      "tools": "Werkzeuge",
+      "mobile": "Mobile",
+      "design": "Design",
+      "ai": "KI/ML"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Gedanken, Ideen und Dinge, die ich interessant finde",
+    "searchPlaceholder": "Artikel suchen...",
+    "noResults": "Keine Artikel gefunden",
+    "tryAdjusting": "Versuche, deine Suche oder Filter anzupassen",
+    "clearFilters": "Alle Filter löschen",
+    "showMore": "{0} weitere anzeigen",
+    "showLess": "Weniger anzeigen",
+    "moreArticles": "Weiter anzeigen",
+    "readMore": "Weiterlesen",
+    "sorting": {
+      "newestFirst": "Neueste zuerst",
+      "oldestFirst": "Älteste zuerst"
+    }
+  },
+  "common": {
+    "clear": "Löschen",
+    "filteredBy": "Gefiltert nach:",
+    "backToTop": "Nach oben",
+    "changeLanguage": "Sprache ändern",
+    "toggleTheme": "Design ändern"
+  }
+}

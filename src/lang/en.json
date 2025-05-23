@@ -1,0 +1,83 @@
+{
+  "and": "and",
+  "navigation": {
+    "projects": "PET PROJECTS",
+    "experience": "EXPERIENCE",
+    "skills": "SKILLS",
+    "blog": "BLOG"
+  },
+  "header": {
+    "title": "Full Stack Engineer | Typescript, Web3, ML",
+    "intro1": "Full-Stack Engineer with 10+ years of experience, specializing in full-cycle development in NodeJS, React.js, TypeScript.",
+    "intro2": "In my spare time, I learn Python and Golang and work on my pet ML project Cashnews and e-commerce project Dropster."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "My professional journey through the tech industry",
+    "searchPlaceholder": "Search by role or technology",
+    "noResults": "No experiences match your search",
+    "clearSearch": "Clear search",
+    "showMore": "Show {0} More",
+    "showLess": "Show Less",
+    "badges": {
+      "remote": "Remote",
+      "hybrid": "Hybrid",
+      "onsite": "On-site",
+      "mixed": "Mixed"
+    },
+    "details": {
+      "keyAchievements": "KEY ACHIEVEMENTS",
+      "technologies": "TECHNOLOGIES"
+    }
+  },
+  "projects": {
+    "title": "Pet Projects",
+    "subtitle": "Personal projects i do on free time",
+    "viewProject": "View Project",
+    "viewCode": "View Code"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies i'm comfortable with",
+    "searchPlaceholder": "Search skills...",
+    "noResults": "No skills match your criteria",
+    "clearFilters": "Clear filters",
+    "allSkills": "All Skills",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "devops": "DevOps",
+      "cloud": "Cloud",
+      "languages": "Languages",
+      "frameworks": "Frameworks",
+      "tools": "Tools",
+      "mobile": "Mobile",
+      "design": "Design",
+      "ai": "AI/ML"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Thoughts, ideas, and stuff I find interesting",
+    "searchPlaceholder": "Search articles...",
+    "noResults": "No articles found",
+    "tryAdjusting": "Try adjusting your search or filters",
+    "clearFilters": "Clear All Filters",
+    "showMore": "Show {0} More",
+    "moreArticles": "More Articles",
+    "showLess": "Show Less",
+    "readMore": "Read More",
+    "sorting": {
+      "newestFirst": "Newest First",
+      "oldestFirst": "Oldest First"
+    }
+  },
+  "common": {
+    "clear": "Clear",
+    "filteredBy": "Filtered by:",
+    "backToTop": "Back to top",
+    "changeLanguage": "Change Language",
+    "toggleTheme": "Change Theme"
+  }
+}
