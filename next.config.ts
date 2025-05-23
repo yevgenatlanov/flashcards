@@ -30,8 +30,6 @@ const nextConfig: NextConfig = {
           loader: "ts-loader",
           options: {
             transpileOnly: true,
-            experimentalDecorators: true,
-            emitDecoratorMetadata: true,
           },
         },
       ],
