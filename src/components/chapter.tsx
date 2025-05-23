@@ -22,28 +22,23 @@ export function ChapterSelection({
             <Card
               key={chapter.id}
               className="cursor-pointer hover:shadow-md transition-shadow"
+              onClick={() => onChapterSelect(chapter.id)}
             >
               <CardContent className="p-4">
-                <Button
-                  variant="ghost"
-                  className="w-full h-auto p-0 text-left"
-                  onClick={() => onChapterSelect(chapter.id)}
-                >
-                  <div className="w-full">
-                    <h3 className="font-semibold text-lg">{chapter.title}</h3>
-                    {chapter.description && (
-                      <p className="text-sm text-muted-foreground mt-1">
-                        {chapter.description}
-                      </p>
-                    )}
-                    <div className="flex justify-between items-center mt-2">
-                      <span className="text-sm text-muted-foreground">
-                        {chapter?.tasks ? chapter?.tasks?.length : 0} Fragen
-                      </span>
-                      <ArrowRight className="w-4 h-4" />
-                    </div>
+                <div className="w-full">
+                  <h3 className="font-semibold text-lg">{chapter.title}</h3>
+                  {chapter.description && (
+                    <p className="text-sm text-muted-foreground mt-1">
+                      {chapter.description}
+                    </p>
+                  )}
+                  <div className="flex justify-between items-center mt-2">
+                    <span className="text-sm text-muted-foreground">
+                      {chapter?.tasks ? chapter?.tasks?.length : 0} Fragen
+                    </span>
+                    <ArrowRight className="w-4 h-4" />
                   </div>
-                </Button>
+                </div>
               </CardContent>
             </Card>
           ))}
