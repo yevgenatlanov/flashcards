@@ -20,7 +20,7 @@ export async function middleware(request: NextRequest) {
 
   if (!subdomain) return NextResponse.next();
 
-  if (subdomain === "bp") {
+  if (subdomain === "flashcards") {
     return NextResponse.next();
   }
 
