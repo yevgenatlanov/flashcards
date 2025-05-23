@@ -1,6 +1,5 @@
 import { ChapterWithTasks } from "@/types";
 import { Card, CardContent } from "./ui/card";
-import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
 
 // Chapter Selection Componentex
