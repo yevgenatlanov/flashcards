@@ -27,15 +27,20 @@ export default function AskChatGPTCard() {
     const fullUrl = `https://chat.openai.com/?model=gpt-4&q=${encodedQuery}`;
 
     try {
-      // 2) Call TinyURL’s new API to shorten it
-      const response = await fetch("https://api.tinyurl.com/create", {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${tinyApi}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ url: fullUrl }),
-      });
+      // 2) Call TinyURL’s new API to shorten it using api_token param
+      const response = await fetch(
+        `https://api.tinyurl.com/create?api_token=${tinyApi}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            url: fullUrl,
+            domain: "tinyurl.com",
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Failed to shorten link");
@@ -65,7 +70,7 @@ export default function AskChatGPTCard() {
 
   return (
     <PageWrapper>
-      <div className="flex h-screen w-full items-center justify-center bg-background">
+      <div className="flex w-full items-center justify-center bg-background">
         <Card className="w-full max-w-md p-6 shadow-lg">
           <CardContent>
             <h2 className="mb-6 text-center text-2xl font-semibold text-foreground">
