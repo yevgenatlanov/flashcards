@@ -28,6 +28,10 @@ export async function middleware(request: NextRequest) {
     return NextResponse.rewrite(new URL(`/decision`, request.url));
   }
 
+  if (subdomain === "askgpt") {
+    return NextResponse.rewrite(new URL(`/askgpt`, request.url));
+  }
+
   const tenant = await getSubdomainData(subdomain);
   if (!tenant) {
     return NextResponse.rewrite(new URL("/404", request.url));
