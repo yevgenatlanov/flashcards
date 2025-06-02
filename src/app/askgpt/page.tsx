@@ -13,42 +13,34 @@ export default function AskChatGPTCard() {
   const [isLoading, setIsLoading] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  // TinyURL API token from environment
-  const tinyApi = process.env.TINY_URL_API;
-
   const handleAsk = async () => {
     if (!query.trim()) return;
 
     setIsLoading(true);
     setCopied(false);
 
-    // 1) Build the ChatGPT URL
+    // Build the ChatGPT URL
     const encodedQuery = encodeURIComponent(query.trim());
     const fullUrl = `https://chat.openai.com/?model=gpt-4&q=${encodedQuery}`;
 
     try {
-      // 2) Call TinyURL’s new API to shorten it using api_token param
+      // Use is.gd API to shorten without auth
       const response = await fetch(
-        `https://api.tinyurl.com/create?api_token=${tinyApi}`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            url: fullUrl,
-            domain: "tinyurl.com",
-          }),
-        }
+        `https://is.gd/create.php?format=json&url=${encodeURIComponent(
+          fullUrl
+        )}`
       );
 
       if (!response.ok) {
-        throw new Error("Failed to shorten link");
+        const errText = await response.text();
+        throw new Error(`Failed to shorten link: ${errText}`);
       }
 
       const data = await response.json();
-      // The API returns the shortened URL in data.data.tiny_url
-      setShortUrl(data.data.tiny_url);
+      if (data.errorcode) {
+        throw new Error(data.errormessage || "Unknown error");
+      }
+      setShortUrl(data.shorturl);
     } catch (err) {
       console.error(err);
       setShortUrl("Error creating short link");
@@ -70,7 +62,7 @@ export default function AskChatGPTCard() {
 
   return (
     <PageWrapper>
-      <div className="flex w-full items-center justify-center bg-background">
+      <div className="flex h-screen w-full items-center justify-center bg-background">
         <Card className="w-full max-w-md p-6 shadow-lg">
           <CardContent>
             <h2 className="mb-6 text-center text-2xl font-semibold text-foreground">
